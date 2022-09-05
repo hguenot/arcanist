@@ -182,12 +182,11 @@ abstract class WizardStep
     }
 
     /**
-     * The custom validation messages.
+     * The custom validation messages
      *
      * @return array<string, string>
      */
-    protected function messages(): array
-    {
+    protected function messages(): array {
         return [];
     }
 
